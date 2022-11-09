@@ -23,7 +23,7 @@ public class Login implements Task {
         actor.attemptsTo(Click.on(uTestLoginPage.LOGIN_BUTTON),
                 Enter.theValue("MANUEL SANTIAGO").into(uTestLoginPage.INPUT_FIRST_NAME),
                 Enter.theValue("CASTILLO PALACIO").into(uTestLoginPage.INPUT_LAST_NAME),
-                Enter.theValue("MANUECssASTILLO222PALAsCIO@GMAIL.COM").into(uTestLoginPage.INPUT_EMAIL),
+                Enter.theValue("MANUECssASTILLO222PALAsCIOssss@GMAIL.COM").into(uTestLoginPage.INPUT_EMAIL),
                 Click.on(uTestLoginPage.INPUT_BIRTH_MONTH), Click.on(uTestLoginPage.INPUT_BIRTH_DAY),
                 Click.on(uTestLoginPage.INPUT_BIRTH_YEAR), Click.on(uTestLoginPage.BUTTON_NEXT_FORM),
                 Enter.theValue("1111190").into(uTestLoginPage.POSTAL_CODE),
